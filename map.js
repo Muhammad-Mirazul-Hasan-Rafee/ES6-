@@ -1,9 +1,13 @@
 const numbers = [1 , 4 , 6 ,8, 12 , 14 , 18 , 20];
-function doubleIt(num){
-   return num*2;
-}
-const result = numbers.map(doubleIt);
-console.log(result);
+// function doubleIt(num){
+//    return num*2;
+// }
+// const result = numbers.map(doubleIt);
+
+// const double2 = n => n*2;
+// const output = numbers.map(double2);
+const output2 = numbers.map(n => n*2);
+console.log(output2);
 
 // const doubled = [];
 
@@ -13,3 +17,7 @@ console.log(result);
 
 // }
 // console.log(doubled);
+
+const friends = ['Rafee' , 'Mahim' , 'Fahim' , 'Tanvir' , 'Tonmoy'];
+const lengths = friends.map(frnd => frnd.length);
+console.log(lengths);
